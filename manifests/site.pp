@@ -56,6 +56,7 @@ node default {
 
   # Optional stuff
   include xquartz
+  include python
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -73,10 +74,6 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
-
-  class { 'python':
-    version => '2.7.5-boxen2'
-  }
 
   # common, useful packages
   package {
