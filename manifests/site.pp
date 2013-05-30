@@ -55,7 +55,6 @@ node default {
   include hub
 
   # Optional stuff
-  include python
   include xquartz
 
   # fail if FDE is not enabled
@@ -74,6 +73,10 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  class { 'python':
+    version => '2.7.5-boxen2'
+  }
 
   # common, useful packages
   package {
