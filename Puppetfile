@@ -26,6 +26,7 @@ github "inifile",    "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
 github "nodejs",     "2.2.0"
 github "repository", "2.0.2"
 github "ruby",       "4.1.0"
+github "hub",        "1.0.0"
 github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 
 # Optional/custom modules. There are tons available at

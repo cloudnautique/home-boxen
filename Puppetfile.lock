@@ -69,6 +69,7 @@ DEPENDENCIES
   gcc (= 1.0.0)
   git (= 1.2.2)
   homebrew (= 1.1.2)
+  hub (=1.0.0)
   inifile (= 0.9.0)
   nodejs (= 2.2.0)
   repository (= 2.0.2)
