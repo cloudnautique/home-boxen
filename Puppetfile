@@ -28,7 +28,8 @@ github "repository", "2.0.2"
 github "ruby",       "4.1.0"
 github "hub",        "1.0.0"
 github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
-github "python",     "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "xquartz",    "1.1.0"
+github "python",     "1.2.0"

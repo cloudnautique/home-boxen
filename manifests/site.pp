@@ -53,7 +53,10 @@ node default {
   include dnsmasq
   include git
   include hub
+
+  # Optional stuff
   include python
+  include xquartz
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
