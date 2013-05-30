@@ -53,6 +53,7 @@ node default {
   include dnsmasq
   include git
   include hub
+  include python
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
