@@ -58,10 +58,6 @@ node default {
   include xquartz
   include python
 
-  python::requirements {
-    requirements => 'files/python/requirements.txt'
-  }
-
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
