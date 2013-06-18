@@ -34,3 +34,5 @@ github "sudo",       "1.0.0"
 # https://github.com/boxen.
 github "xquartz",    "1.1.0"
 github "python",     "1.2.0"
+github "vagrant",    "2.0.7"
+github "virtualbox", "1.0.3"
