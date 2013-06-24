@@ -79,6 +79,7 @@ node default {
   include ruby::2_0_0
 
   # Include rbenv plugin
+  include ruby
   ruby::plugin {'rbenv-gemset':
     ensure => 'v0.3.0',
     source => 'jamis/rbenv-gemset'
