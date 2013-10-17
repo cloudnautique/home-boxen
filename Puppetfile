@@ -38,7 +38,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 github "xquartz",    "1.1.0"
 github "python",     "1.2.1"
-github "vagrant",    "2.0.10"
+github "vagrant",    "2.0.13"
 github "virtualbox", "1.0.5"
 github "textmate",   "1.1.0"
 github "packer",     "1.0.2"

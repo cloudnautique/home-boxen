@@ -5,4 +5,8 @@ class people::cloudnautique {
     version => '1.9.3'
   }
 
+  class {'packer':
+    version => '0.3.9'
+  }
+
 }
