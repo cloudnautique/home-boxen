@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.0.2"
+github "boxen",      "3.3.5"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -38,7 +38,7 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 github "xquartz",    "1.1.0"
 github "python",     "1.2.1"
-github "vagrant",    "2.0.13"
+github "vagrant",    "3.0.0"
 github "virtualbox", "1.0.9"
 github "textmate",   "1.1.0"
 github "packer",     "1.1.0"
