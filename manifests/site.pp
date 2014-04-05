@@ -61,7 +61,6 @@ node default {
   include xquartz
   include python
   include python::virtualenvwrapper
-  include vagrant
   include virtualbox
 
   # fail if FDE is not enabled

@@ -56,9 +56,8 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "xquartz",    "1.1.0"
 github "python",     "1.2.1"
-github "vagrant",    "3.0.4"
+github "vagrant",    "3.0.6"
 github "virtualbox", "1.0.9"
 github "textmate",   "1.1.0"
 github "packer",     "1.1.0"
