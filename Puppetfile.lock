@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.4.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
@@ -89,6 +94,11 @@ GITHUBTARBALL
     ruby (7.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-slack
+  specs:
+    slack (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -130,6 +140,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.4.2)
+  chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
@@ -143,18 +154,17 @@ DEPENDENCIES
   nodejs (= 3.7.0)
   openssl (= 1.0.0)
   packer (= 1.1.0)
+  phantomjs (= 2.3.0)
+  pkgconfig (= 1.0.0)
   python (= 1.2.1)
   redis (= 2.1.0)
-  ruby (= 6.7.2)
+  repository (= 2.3.0)
+  ruby (= 7.3.0)
+  slack (= 1.0.4)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   textmate (= 1.1.0)
   vagrant (= 3.0.4)
   virtualbox (= 1.0.9)
-  phantomjs (= 2.3.0)
-  pkgconfig (= 1.0.0)
-  repository (= 2.3.0)
-  ruby (= 7.3.0)
-  stdlib (= 4.1.0)
-  sudo (= 1.0.0)
   xquartz (= 1.1.1)
+
