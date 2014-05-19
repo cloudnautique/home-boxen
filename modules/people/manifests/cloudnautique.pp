@@ -3,11 +3,8 @@ class people::cloudnautique {
   include redis
   include chrome
   include slack
-<<<<<<< HEAD
   include elasticsearch
-=======
   include mysql
->>>>>>> origin/master
 
   class {'packer':
     version => '0.5.2'
