@@ -3,6 +3,7 @@ class people::cloudnautique {
   include redis
   include chrome
   include slack
+  include elasticsearch
 
   class {'packer':
     version => '0.5.2'
