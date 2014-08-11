@@ -16,6 +16,6 @@ class people::cloudnautique {
 
 
   class { 'nodejs::global':
-    version => 'v0.10.29'
+    version => 'v0.10.26'
   }
 }
