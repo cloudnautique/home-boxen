@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-bash
+  specs:
+    bash (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
@@ -74,6 +79,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.7.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-packer
   specs:
     packer (1.1.0)
@@ -121,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.1.1)
+    vagrant (3.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-vim
@@ -154,6 +164,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  bash (= 1.1.0)
   boxen (= 3.7.0)
   chrome (= 1.1.2)
   dnsmasq (= 2.0.0)
@@ -171,6 +182,7 @@ DEPENDENCIES
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
+  osx (= 2.7.1)
   packer (= 1.1.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
@@ -181,7 +193,7 @@ DEPENDENCIES
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   textmate (= 1.1.0)
-  vagrant (= 3.1.1)
+  vagrant (= 3.2.0)
   vim (= 1.0.5)
   virtualbox (= 1.0.13)
   xquartz (= 1.2.1)

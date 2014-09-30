@@ -1,5 +1,4 @@
 class people::cloudnautique {
-  include textmate::textmate2::release
   include redis
   include chrome
   include elasticsearch
@@ -7,8 +6,10 @@ class people::cloudnautique {
   include vim
   include virtualbox
   include python
+  include bash
 
   include python::virtualenvwrapper
+  include bash::completion
 
 
   class {'packer':
@@ -16,7 +17,7 @@ class people::cloudnautique {
   }
 
   class {'vagrant':
-    version    => '1.6.3',
+    version    => '1.6.5',
     completion => true,
   }
 
