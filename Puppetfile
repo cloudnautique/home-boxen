@@ -70,5 +70,7 @@ github "elasticsearch", "2.3.0"
 github "mysql",       "1.2.0"
 github "java",        "1.4.0"
 github "vim",         "1.0.5"
-github "bash",        "1.1.0"
 github "osx",         "2.7.1"
+
+mod "bash",
+    :git => "git@github.com:boxen/puppet-bash.git"
