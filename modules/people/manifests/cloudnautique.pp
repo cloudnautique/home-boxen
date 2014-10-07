@@ -10,6 +10,8 @@ class people::cloudnautique {
 
   include python::virtualenvwrapper
   include bash::completion
+  include iterm2::stable
+  include iterm2::colors::solarized_light
 
 
   class {'packer':
@@ -38,4 +40,6 @@ class people::cloudnautique {
         'rodjek/vim-puppet',
     ]:
   }
+
+
 }
