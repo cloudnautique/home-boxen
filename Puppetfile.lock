@@ -1,7 +1,9 @@
-GITHUBTARBALL
-  remote: boxen/puppet-bash
+GIT
+  remote: git@github.com:boxen/puppet-bash.git
+  ref: master
+  sha: 5ac954981706cea513b8273d831937158b2074df
   specs:
-    bash (1.1.0)
+    bash (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -164,7 +166,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  bash (= 1.1.0)
+  bash (>= 0)
   boxen (= 3.7.0)
   chrome (= 1.1.2)
   dnsmasq (= 2.0.0)
