@@ -28,6 +28,11 @@ GITHUBTARBALL
     dnsmasq (2.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.6.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
     elasticsearch (2.3.0)
@@ -100,7 +105,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-packer
   specs:
-    packer (1.1.0)
+    packer (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -177,6 +182,7 @@ DEPENDENCIES
   boxen (= 3.7.0)
   chrome (= 1.1.2)
   dnsmasq (= 2.0.0)
+  docker (= 0.6.0)
   elasticsearch (= 2.3.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
@@ -193,7 +199,7 @@ DEPENDENCIES
   nodejs (= 3.8.1)
   openssl (= 1.0.0)
   osx (= 2.7.1)
-  packer (= 1.1.0)
+  packer (= 1.3.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   python (>= 0)
