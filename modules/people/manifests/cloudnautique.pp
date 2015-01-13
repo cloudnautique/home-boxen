@@ -15,11 +15,11 @@ class people::cloudnautique {
 
 
   class {'packer':
-    version => '0.7.1'
+    version => '0.7.5'
   }
 
   class {'vagrant':
-    version    => '1.6.5',
+    version    => '1.7.1',
     completion => true,
   }
 
@@ -29,7 +29,7 @@ class people::cloudnautique {
   }
 
   class { 'nodejs::global':
-    version => 'v0.10.26'
+    version => 'v0.10.29'
   }
 
   vim::bundle {
@@ -38,8 +38,8 @@ class people::cloudnautique {
         'kien/ctrlp.vim',
         'godlygeek/tabular',
         'rodjek/vim-puppet',
+        'fatih/vim-go',
     ]:
   }
-
 
 }
