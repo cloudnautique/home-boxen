@@ -7,6 +7,7 @@ class people::cloudnautique {
   include virtualbox
   include python
   include bash
+  include docker
 
   include python::virtualenvwrapper
   include bash::completion
