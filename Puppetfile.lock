@@ -145,7 +145,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.2.0)
+    vagrant (3.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-vim
@@ -179,9 +179,9 @@ GITHUBTARBALL
 
 DEPENDENCIES
   bash (>= 0)
-  chrome (= 1.1.2)
   boxen (= 3.10.1)
   brewcask (= 0.0.4)
+  chrome (= 1.1.2)
   dnsmasq (= 2.0.1)
   docker (= 0.7.0)
   elasticsearch (= 2.7.0)
@@ -209,7 +209,7 @@ DEPENDENCIES
   ruby (= 8.1.7)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
-  vagrant (= 3.2.0)
+  vagrant (= 3.2.2)
   vim (= 1.0.5)
   virtualbox (= 1.0.13)
   xquartz (= 1.2.1)
